@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="eser.css">
+</head>
+<body>
+    <h1 class="title">CALCOLI-AMO</h1>
+<div class="calcolo">
+        <p> operazioni (+ - * /)</p>
+        <label for="num1"></label>
+        <input type="number" id="num1" placeholder="num1" required>
+        <select id="operatore">
+            <option value="">Seleziona l'operatore</option>
+            <option value="+">somma +</option>
+            <option value="-">sotrazione -</option>
+            <option value="*">moltiplicazione *</option>
+            <option value="/">divisione /</option>
+        </select>
+        <label for="num2"></label>
+        <input type="number" id="num2" placeholder="num2" required>
+        <button class="buttonCalcolo" onclick="calcola()">calcola</button><br>
+        <h4 id="risultatoTesto"></id=></h4>
+</div>
+
+<div  class="convSol">
+    <label for="denarodaConvertire">Da Euro a Dollaro</label>
+    <input type="number" id="denarodaConvertire" placeholder="inserisci" required>
+    <select id="converti">
+        <option>seleziona la moneta di conversione</option>
+        <option value="euro">Euro </option>
+        <option value="dollaro">Dollaro</option>
+    </select>
+    <button class="convertiSoldi" onclick="conversione()">Converti</button>
+    <h4 id="equivalenzaTesto"></h4>
+</div >
+   
+<div class="convTemp">
+    <label for="celcius">Da Celcius a Fahrenheit</label>
+    <input type="number" id="celcius" placeholder="inserisci gradi in Celcius" required>
+    <button class="convertiGradi" onclick="celciusFahrenheit()">Converti</button>
+    <h4 id="fahrenheitTesto"></h4>
+</div>
+
+<div class="numeriPari">
+    <label for="numeroPari">Numeri Pari & Dispari</label>
+    <input type="number" id="numeroPari" placeholder="Pari & Dispari" required>
+    <button class="verfica" onclick="numeriPari()">verifca</button>
+    <h4 id="pariTesto"></h4>
+</div>
+
+<div class="calcolaArea">
+    <p>CALCOLO AREA</p>
+    <select  id="sceltaForma">
+        <option value="">seleziona una forma</option>
+        <option value="quadrato">Quadrato [-]</option>
+        <option value="rettangolo">Rettangolo []</option>
+        <option value="triangolo">Triangolo /\</option>
+    </select>
+    <form action="">
+        <label for="base"></label>
+        <input type="number" id="base"  placeholder="Base" required>
+        <label for="altezza"></label>
+        <input type="number" id="altezza"  placeholder="Altezza">
+    </form>
+    <button class="calcoloArea" onclick="calcArea()">Calcola</button>
+    <h4 id="areaTesto"></h4>
+</div>
+<script>
+    const forma = document.querySelector('#sceltaForma').value;/* questa parte di codice non mi funziona prof  provato con classlist in js ma nulla.....*/
+    if (forma === 'quadrato'){
+        const altezza = document.querySelector('#altezza').style.display = 'none';
+        const base = document.querySelector('#base').innerText = 'Lato';
+    } else {
+        const altezza = document.querySelector('#altezza').style.display = 'inline';
+        const base = document.querySelector('#base').innerText = 'base';
+    }
+</script>
+
+<script src="eser.js"></script>
+</body>
+</html>
