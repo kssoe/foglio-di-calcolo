@@ -36,7 +36,7 @@ div {
 }
 
 h3.title {
-    display:none;
+    display:hidden;
     background-clip: text;
     color: transparent;
     margin-bottom: 20px;
