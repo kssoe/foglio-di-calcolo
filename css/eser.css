@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background:url(https://th.bing.com/th/id/R.94ee9033f8cde38525ddd362dcf983d3?rik=8zHmzmtZddHTrQ&riu=http%3a%2f%2fcdn.wallpapersafari.com%2f67%2f79%2f9arpdx.jpg&ehk=HNX49V0dlLnQj0Zsvu6XxuxH5Xhlq8LFj9ekpJuYpiY%3d&risl=&pid=ImgRaw&r=0) no-repeat center center/cover;
+    background:url('https://4kwallpapers.com/images/walls/thumbs_3t/11582.png') no-repeat center center/cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,6 +22,7 @@ h1::after {
 }
 
 div {
+    border:2px white;
     /* background: linear-gradient(45deg, #6b6bff, #ff6b6b); */
     background: transparent;
     padding: 30px;
@@ -35,6 +36,7 @@ div {
 }
 
 h1.title {
+    display:hidden;
     background-clip: text;
     color: transparent;
     margin-bottom: 20px;
