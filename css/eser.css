@@ -26,7 +26,7 @@ div {
     /* background: linear-gradient(45deg, #6b6bff, #ff6b6b); */
     background: transparent;
     padding: 30px;
-    border: 2px 4px white;
+    border: 2px 4px rgb(255,255,255;
     border-radius: 15px;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1) inset,
     10px 10px 30px rgba(103, 9, 9, 0.1) ;
@@ -87,8 +87,8 @@ h4 {
     color: #333;
     font-weight: bold;
 }
-label, h3{
-    color: #191919b5;border: none; 
+label, h3,p{
+    color: rgb(255,255,255);border: none; 
     text-shadow: #000000 10px ;
 }
 
