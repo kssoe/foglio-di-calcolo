@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background:url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwallpapersden.com%2Fboat-minimalist-hd-wallpaper%2F&psig=AOvVaw11uSA25QdP4wr3y2ukAdGQ&ust=1738686495182000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCICn24z2p4sDFQAAAAAdAAAAABAJ) no-repeat center center/cover;
+    background:url(img.jpg) no-repeat center center/cover;
     display: flex;
     justify-content: center;
     align-items: center;
